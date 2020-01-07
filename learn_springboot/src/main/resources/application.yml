@@ -1,0 +1,16 @@
+spring:
+  http:
+    #设置模板引擎编码格式
+    encoding:
+      force: true
+      charset: UTF-8
+  freemarker:
+    allow-request-override: false
+    cache: false
+    check-template-location: true
+    charset: UTF-8
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
+    suffix: .ftlh
+    template-loader-path: classpath:/template
