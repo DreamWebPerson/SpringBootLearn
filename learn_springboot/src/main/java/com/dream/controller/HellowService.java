@@ -1,8 +1,9 @@
-package com.dream.api.server;
+package com.dream.controller;
 
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 //所有方法的返回值都已JSON返回
 //@RestController = @Controller+@ResponseBody
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 //@EnableAutoConfiguration
 //扫描
 //@ComponentScan("com.dream.api.server")
+@RestController
 public class HellowService {
 
     @RequestMapping("Hellow")

@@ -26,7 +26,7 @@
         <!--freemarke视图引擎渲染web视图-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemrake</artifactId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
     </dependencies>
 

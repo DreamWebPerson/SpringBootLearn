@@ -10,7 +10,7 @@
 性别为：<#if sex=="1">男</br></#if>
 <#if sex=="2">女</br></#if>
 <#list object as hobbi>
-    爱好为： #{hobbi}</br>
+    爱好为： ${hobbi}</br>
 </#list>
 </body>
 </html>
